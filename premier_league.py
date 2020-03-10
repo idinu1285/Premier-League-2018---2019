@@ -58,7 +58,7 @@ PL['Total_Draws'] = PL.Home_Draws + PL.Away_Draws
 fig5 = px.bar(PL, x='Team', y='Total_Draws', barmode='group', title='Draws in the championship', height=600)
 fig5.update_layout(xaxis_title='Name of teams', yaxis_title='Total draws', font=dict(family='Calibri', size=14),
                    title = dict(x = 0.5, y = 0.9, xanchor = 'center',yanchor = 'top'))
-fig.show()
+fig5.show()
 
 # representation of chart which show the situation of goals scored at home
 # it is observed that Man City and Liverpool are at the top of the ranking and Huddersfield is the last in ranking
